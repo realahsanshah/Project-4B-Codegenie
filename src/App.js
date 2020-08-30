@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import TopComponent from './components/TopComponent';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
     <div>
       <Navbar />
       <TopComponent />
-      <AboutUs />
+      <ScrollAnimation animateIn='bounceInLeft'>
+        <AboutUs />
+      </ScrollAnimation>
       <Footer />
     </div>
   );
