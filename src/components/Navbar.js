@@ -5,7 +5,7 @@ const Navbar = () => {
     return ( 
         <div>
         <nav class="navbar navbar-expand-lg">
-            <span class="navbar-brand">CodeGenie</span>
+            <span class="navbar-brand"><img src='img/overlay.png' alt='CodeGenie' className='logo' />CodeGenie</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon bg-dark-gray"></span>
             </button>
