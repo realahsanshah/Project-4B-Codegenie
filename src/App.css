@@ -12,7 +12,7 @@
 }
 
 .navbar-toggler {
-    columns: #003a78;
+    color: #003a78;
 }
 
 .navbar-brand {
@@ -21,4 +21,14 @@
 
 .logo {
     height: 50px;
+}
+
+.h1Text {
+    color: #003A78;
+    margin-top: 100px
+}
+
+.paraText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
