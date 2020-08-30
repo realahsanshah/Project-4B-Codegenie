@@ -4,7 +4,7 @@ const TopComponent = () => {
     return ( 
         <div className='container'>
         <div className='row'>
-            <div className='col-12 col-lg-6'>
+            <div className='col-12 col-lg-6 topAnimation'>
                 <img src='img/topPic.svg' alt='About us' />
             </div>
             <div className='col-12 col-lg-6'>

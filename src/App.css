@@ -1,5 +1,6 @@
 .navbar {
     color: #003A78;
+    background: white;
 }
 
 .navbar-nav,
@@ -38,4 +39,33 @@
     margin: 200px 0 50px;
     text-align: center;
     color: #003A78;
+}
+
+.footer {
+    background: #002348;
+    color: white;
+    height: 600px;
+    padding-top: 300px;
+}
+
+.footerH1,
+.footerH3 {
+    text-align: center;
+}
+
+.footerH1 {
+    font-size: 60px;
+}
+
+
+/* 
+.footerH3 {
+    padding: 0 22vh;
+
+font-size: 38px
+}
+*/
+
+.topAnimation {
+    margin-top: 70px;
 }

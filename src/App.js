@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import TopComponent from './components/TopComponent';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <TopComponent />
       <AboutUs />
+      <Footer />
     </div>
   );
 }
